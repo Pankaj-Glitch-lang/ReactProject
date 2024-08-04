@@ -1,0 +1,15 @@
+.Products{
+
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  object-fit: contain;
+}
+.Products>div{
+
+  margin: 10px;
+  padding: 10px;
+}
+.Pagination{
+  display: flex;
+  justify-content: center;
+}
